@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-gradient-to-br from-blue-50 to-indigo-50;
+}
+.container {
+  @apply container px-6 m-auto;
+}
+.box-cont {
+  @apply w-4/5 m-auto py-10 px-12 bg-white rounded-2xl;
+}
+.header-text {
+  @apply text-3xl font-bold text-gray-800 mb-8  text-left;
+}
+.input-box {
+  @apply bg-emerald-200 p-6 rounded-xl mt-12;
+}
+.total-box {
+  @apply py-6;
+}
+.data-items {
+  @apply py-3 border-t border-indigo-200;
+}
